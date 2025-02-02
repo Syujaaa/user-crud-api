@@ -44,4 +44,8 @@ class ApiController extends Controller
 
         ], 403);
     }
+
+    public function cb(){
+        dd("coba");
+    }
 }
